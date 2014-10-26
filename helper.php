@@ -8,7 +8,7 @@ class mod_responsiveVideoHelper{
 
 	public function getVideo($params){
 		$videoCode = $params->get('embed_code');
-		return videoCode;
+		return $videoCode;
 	}
 
 	public function load_jquery(&$params){
