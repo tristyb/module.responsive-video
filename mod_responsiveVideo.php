@@ -2,7 +2,7 @@
 
 #@license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
 
-/* tristyb's Responsive Video Module */
+/* tristyb's Responsive Video Embed */
 
 defined('_JEXEC') or die;
 $doc =& JFactory::getDocument();
