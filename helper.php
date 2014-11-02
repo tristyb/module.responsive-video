@@ -6,12 +6,12 @@ defined('_JEXEC') or die;
 
 class mod_responsiveVideoHelper{
 
-	public function getVideo($params){
+	public static function getVideo($params){
 		$videoCode = $params->get('embed_code');
 		return $videoCode;
 	}
 
-	public function load_jquery(&$params){
+	public static function load_jquery(&$params){
 		if($params->get('load_jquery')){
 			JLoader::import( 'joomla.version' );
 			$version = new JVersion();

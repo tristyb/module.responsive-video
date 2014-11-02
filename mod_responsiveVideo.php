@@ -5,7 +5,7 @@
 /* tristyb's Responsive Video Embed */
 
 defined('_JEXEC') or die;
-$doc =& JFactory::getDocument();
+$doc = JFactory::getDocument();
 $doc->addScript(JURI::base(true) . '/modules/mod_responsiveVideo/assets/js/fitvids.min.js');
 require_once(dirname(__FILE__).'/helper.php');
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
