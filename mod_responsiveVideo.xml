@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="module" version="2.5" client="site" method="upgrade">
+<extension type="module" version="3.0" client="site" method="upgrade">
 
 	<name>MOD_RESPONSIVE_VIDEO</name>
 	<author>Tristan Brookes</author>
 	<creationDate>October 2014</creationDate>
 	<copyright>Copyright (C) Tristan Brookes</copyright>
 	<license>GNU General Public License version 2 or later</license>
-	<authorEmail>hello@tristanbrook.es</authorEmail>
-	<authorURL>http://tristanbrook.es</authorURL>
-	<version>1.0</version>
+	<authorEmail>hello@webhaus.co.uk</authorEmail>
+	<authorURL>https://www.webhaus.co.uk</authorURL>
+	<version>1.0.1</version>
 	<description>MOD_RESPONSIVE_VIDEO_DESC</description>
 
 	<files>
@@ -29,12 +29,7 @@
 
 			<fieldset name="basic">
 
-				<field name="load_jquery" type="radio" default="1" label="MOD_RESPONSIVE_VIDEO_JQUERY_LABEL" description="MOD_RESPONSIVE_VIDEO_JQUERY_DESC">
-					<option value="1">MOD_RESPONSIVE_VIDEO_YES</option>
-					<option value="0">MOD_RESPONSIVE_VIDEO_NO</option>
-				</field>
-
-				<field name="embed_code" type="textarea" default="" label="MOD_RESPONSIVE_VIDEO_CODE_LABEL" description="MOD_RESPONSIVE_VIDEO_CODE_DESC" filter="raw"/>
+				<field name="embed_code" type="textarea" default="" label="MOD_RESPONSIVE_VIDEO_CODE_LABEL" rows="6" description="MOD_RESPONSIVE_VIDEO_CODE_DESC" filter="raw"/>
 
 			</fieldset>
 
@@ -49,7 +44,7 @@
 					<option value="1">JGLOBAL_USE_GLOBAL</option>
 					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
 				</field>
-				<field name="cache_time" type="text" default="900" 
+				<field name="cache_time" type="text" default="900"
 				label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
 				description="COM_MODULES_FIELD_CACHE_TIME_DESC"/>
 				<field name="cachemode" type="hidden" default="itemid">
