@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 				tasks: ["concat", "uglify"]
 			},
 			compression: {
-				files: ['assets/**/*', 'language/**/*', 'tmpl/**/*', 'helper.php', 'mod_responsiveVideo.php', 'mod_responsiveVideo.xml', "Gruntfile.js"],
+				files: ['assets/**/*', 'language/**/*', 'tmpl/**/*', 'helper.php', 'mod_responsivevideo.php', 'mod_responsivevideo.xml', "Gruntfile.js"],
 				tasks: ["compress"]
 			}
 		},
@@ -69,8 +69,8 @@ module.exports = function(grunt) {
 					{expand: true, src: ['tmpl/**'], dest: '/'},
 					{expand: true, src: ['helper.php'], dest: '/'},
 					{expand: true, src: ['index.html'], dest: '/'},
-					{expand: true, src: ['mod_responsiveVideo.php'], dest: '/'},
-					{expand: true, src: ['mod_responsiveVideo.xml'], dest: '/'},
+					{expand: true, src: ['mod_responsivevideo.php'], dest: '/'},
+					{expand: true, src: ['mod_responsivevideo.xml'], dest: '/'},
 				]
 			}
 		}

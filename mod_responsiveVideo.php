@@ -10,11 +10,11 @@ defined('_JEXEC') or die;
 JHtml::_('jquery.framework');
 
 $doc = JFactory::getDocument();
-$doc->addScript(JURI::base(true) . '/modules/mod_responsiveVideo/assets/js/responsiveVideo.min.js');
+$doc->addScript(JURI::base(true) . '/modules/mod_responsivevideo/assets/js/responsiveVideo.min.js');
 
 require_once(dirname(__FILE__).'/helper.php');
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 $video = mod_responsiveVideoHelper::getVideo($params);
 
-require(JModuleHelper::getLayoutPath('mod_responsiveVideo'));
+require(JModuleHelper::getLayoutPath('mod_responsivevideo'));
